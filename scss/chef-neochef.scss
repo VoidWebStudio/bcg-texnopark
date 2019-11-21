@@ -3,7 +3,7 @@
   height: auto;
   padding: 176px 70px 80px 80px;
   width: 100%;
-
+  background-color:#ffffff;
   .main-chef-NeoChef{
     width: 100%;
     display: flex;
@@ -36,6 +36,7 @@
         flex-basis: 600px;
         img{
           max-height: 200px;
+          height: 100%;
         }
         .description-chef-NeoChef{
           display: flex;

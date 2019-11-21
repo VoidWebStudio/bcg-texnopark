@@ -14,6 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
     h1 {
       font-family: "LG Smart Light",sans-serif;
       font-size: 40px;
@@ -30,6 +31,7 @@
       font-weight: 300;
       line-height: 30px;
       text-align: center;
+      width: 100%;
     }
   }
   .pizza-meat-NeoChef{
@@ -59,7 +61,7 @@
         align-items: center;
         .simple-meat-NeoChef{
           width: 205px;
-          height: 205px;
+          height: 100%;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -99,7 +101,7 @@
           justify-content: center;
           align-items: center;
           width: 205px;
-          height: 205px;
+          height: 100%;
           background-repeat: no-repeat;
           background-image: url("../img/cup.svg");
           background-position: center;
@@ -184,7 +186,7 @@
         }
         .simple-stake-NeoChef{
           width: 205px;
-          height: 205px;
+          height: 100%;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -216,7 +218,7 @@
           justify-content: center;
           align-items: center;
           width: 205px;
-          height: 205px;
+          height: 100%;
           background-repeat: no-repeat;
           background-image: url("../img/meat.svg");
           background-position: center;
