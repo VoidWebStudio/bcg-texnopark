@@ -139,6 +139,9 @@
         }
       }
     }
+    .logo-chicken-mob{
+      display: none;
+    }
     .logo-chicken-pad{
       display: none;
     }
@@ -268,6 +271,9 @@
             width:25%;
           }
         }
+      }
+      .logo-chicken-mob{
+        display: none;
       }
       .logo-chicken-pad{
         display: block;
@@ -410,11 +416,16 @@
           }
         }
       }
+      .logo-chicken-mob{
+        display: flex;
+        padding-top: 92px;
+        padding-bottom: 34px;
+      }
       .logo-chicken-lg{
         display: none;
       }
       .bottom-text-NeoChef{
-        padding-top: 176px;
+        padding-top: 0;
         p{
           font-size: 9px;
         }
