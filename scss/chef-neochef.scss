@@ -1,0 +1,323 @@
+.contained-chef-NeoChef{
+  display: flex;
+  height: auto;
+  padding: 176px 70px 80px 80px;
+  width: 100%;
+
+  .main-chef-NeoChef{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    .title-chef-NeoChef{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p{
+        font-family: "LG Smart Light",sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 16px;
+        color: #6b6b6b;
+        text-align: center;
+      }
+    }
+    .bio-chef-NeoChef{
+      display: flex;
+      padding-top: 71px;
+      justify-content:center;
+      align-items: center;
+      width: 100%;
+      .info-chef-NeoChef{
+        display: flex;
+        flex-basis: 600px;
+        img{
+          max-height: 200px;
+        }
+        .description-chef-NeoChef{
+          display: flex;
+          flex-direction: column;
+          padding-left: 5px;
+          padding-top: 76px;
+          .description-chef-NeoChef-title{
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 22px;
+            h1{
+              font-size: 24px;
+              font-family: "LG Smart SemiBold",sans-serif;
+              color: rgb(0, 0, 0);
+              line-height: 1.25;
+              font-weight: 400;
+              text-align: left;
+            }
+            p{
+              font-family: 'LG Smart Light',sans-serif;
+              color: rgb(0, 0, 0);
+              font-size: 24px;
+              font-weight: 300;
+              line-height: 30px;
+              text-align: left;
+              padding-top: 16px;
+            }
+          }
+          .description-chef-NeoChef-story{
+            padding-top: 21px;
+            p{
+              color: #333333;
+              font-family: "LG Smart Light",sans-serif;
+              font-size: 18px;
+              font-weight: 300;
+              line-height: 25px;
+              text-align: left;
+            }
+          }
+          hr{
+            width: 64px;
+            border:2px solid #a50034;
+          }
+        }
+      }
+      .video-chef-NeoChef{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        flex-basis:600px;
+        .chef-video-block{
+          display: flex;
+          width: 100%;
+          img{
+            box-shadow: 2px 0px 13px 0px rgba(0,0,0,0.75);
+            max-width: 340px;
+          }
+          .chef-video-text{
+            display: flex;
+            flex-direction: column;
+            padding-left: 55px;
+            width: 100%;
+            h1{
+              font-size: 24px;
+              font-family: "LG Smart SemiBold",sans-serif;
+              color: rgb(1, 0, 0);
+              font-weight: 400;
+              line-height: 1.25;
+              text-align: left;
+              padding-top: 25px;
+              padding-bottom: 15px;
+            }
+            p{
+              font-size: 18px;
+              font-family: 'LG Smart Light',sans-serif;
+              color: rgb(1, 0, 0);
+              line-height: 1.25;
+              text-align: left;
+            }
+          }
+
+        }
+        .chef-video-block:first-child{
+          padding-bottom: 42px;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .contained-chef-NeoChef{
+    padding: 140px 20px 46px 20px ;
+    height: auto;
+
+    .main-chef-NeoChef{
+
+      .title-chef-NeoChef{
+
+        p{
+
+        }
+      }
+      .bio-chef-NeoChef{
+        padding-top: 35px;
+        flex-direction: column;
+        display: flex;
+        .info-chef-NeoChef{
+          flex-basis: 100%;
+          justify-content: space-between;
+          img{
+            padding-left: 20px;
+          }
+          .description-chef-NeoChef{
+            padding-top: 0;
+            hr{
+              margin-left: 25px;
+            }
+            .description-chef-NeoChef-title{
+              width: 90%;
+              margin: 0 auto;
+              p{
+                padding-bottom:0;
+                br{
+                  display: none;
+                }
+              }
+            }
+            .description-chef-NeoChef-story{
+              width: 90%;
+              margin: 0 auto;
+              p{
+                padding-top: 0;
+                br{
+                  display: none;
+                }
+              }
+            }
+          }
+          h1{
+            padding-top: 0;
+            padding-bottom: 0;
+          }
+          p{
+            padding-top: 0;
+          }
+        }
+        .video-chef-NeoChef{
+          display: flex;
+          flex-basis: 100% ;
+          width: 100%;
+          justify-content: space-between;
+          flex-direction: row;
+          padding-top: 50px;
+          .chef-video-block{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .chef-video-text{
+              justify-content: flex-start;
+              align-items: flex-start;
+              padding-left: 0;
+              max-width: 327px;
+              padding-right: 0;
+              h1{
+                padding-right: 0;
+                text-align: right;
+                padding-bottom: 5px;
+                padding-top: 5px;
+                line-height: 28px;
+              }
+              p{
+                padding-right: 0;
+                text-align: right;
+              }
+            }
+          }
+          .chef-video-block:first-child{
+            padding-bottom: 0;
+          }
+          img{
+            min-width: 327px;
+            min-height: 170px;
+          }
+
+
+        }
+      }
+    }
+  }
+}
+@media (min-width: 320px) and (max-width: 480px){
+  .contained-chef-NeoChef{
+    padding: 0 5px;
+
+    .main-chef-NeoChef{
+      width: 100%;
+      .title-chef-NeoChef{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+          padding-top: 55px;
+          font-size: 9px;
+          font-weight: 300;
+          line-height: 16px;
+        }
+      }
+      .bio-chef-NeoChef{
+        width: 100%;
+        padding-top: 35px;
+        flex-direction: column;
+        display: flex;
+        .info-chef-NeoChef{
+          flex-basis: 20%;
+
+          img{
+            width: 102px;
+            height: 102px;
+          }
+          .description-chef-NeoChef{
+            padding: 0 0 0 21px;
+            hr{
+              border:1px solid #a50034;
+            }
+            .description-chef-NeoChef-title{
+              padding-bottom: 0;
+              h1{
+                font-size: 16px;
+                line-height: 28px;
+              }
+              p{
+                padding: 0;
+                font-size: 16px;
+                line-height: 21px;
+                padding-bottom: 12px;
+              }
+            }
+            .description-chef-NeoChef-story{
+              padding-top: 10px;
+              p{
+                line-height: 16px;
+                font-size: 12px;
+              }
+            }
+          }
+        }
+        .video-chef-NeoChef{
+          display: flex;
+          flex-basis: 100% ;
+          justify-content: center;
+          align-items: center;
+          padding-top: 50px;
+          padding-bottom: 41px;
+          img{
+            max-width: 300px;
+            max-height:147px;
+          }
+          .chef-video-block{
+            display: flex;
+            flex-direction: column;
+            .chef-video-text{
+              padding-left: 0;
+              h1{
+                padding-top: 10px;
+                padding-right: 150px;
+                padding-bottom: 0;
+                text-align: left;
+                font-size: 16px;
+              }
+              p{
+                padding-top: 5px;
+                padding-right:211px;
+                font-size: 12px;
+                text-align: left;
+              }
+            }
+          }
+          .chef-video-block:first-child{
+            padding-bottom: 20px;
+          }
+        }
+      }
+    }
+  }
+}
